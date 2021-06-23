@@ -1,0 +1,73 @@
+.body{
+    width: 100%;
+    flex: 0.8;
+    height: 100vh;
+    color: #fff;
+    padding:30px;
+    overflow-y:overlay ;
+    background: linear-gradient(#231f70,rgb(0,0,1));
+}
+.body::-webkit-scrollbar {
+    width: 15px;
+  }
+.body::-webkit-scrollbar-track{
+    background-color:#f1f1f10a ;
+    height: 10px;
+}
+.body::-webkit-scrollbar-thumb{
+    background: rgba(207, 201, 201, 0.658);
+}
+.body::-webkit-scrollbar-thumb:hover{
+    background: #f1f1f1b0;
+}
+.body_info{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+.body_info > img{
+    height: 20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgb(0, 0, 0,0.5);
+
+}
+.body_icon {
+    display: flex;
+    align-items: center;
+  }
+.body_icon > .MuiSvgIcon-root{
+    margin-right:20px;
+}
+
+.body_song{
+    margin: 20px -30px;
+    z-index: 1;
+}
+.body_shuffle{
+    font-size : 80px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1ed15e;
+}
+.body_shuffle:hover{
+    transition: 150ms transform ease-in;
+    transform:scale(1.08);
+    color: #ffffff;
+}
+.body_infoText{
+
+    flex:1;
+}
+
+.body_infoText >h2{
+    font-size: 59px;
+    margin-bottom: 10px ;
+}
+.body_infoText > strong{
+    font-size:15px;
+}
+.body_infoText >p{
+    font-size: 14px;
+    color: rgb(230, 230, 230);
+}
